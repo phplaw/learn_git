@@ -17,5 +17,7 @@ echo Type message to update master branch?
 read message
 git add . && git commit -m "$message" && git push origin master
 ```
+### Delete a branch on your local filesystem :
 
+```git branch -d [name_of_your_new_branch]```
 
